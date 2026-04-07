@@ -34,6 +34,7 @@ def print_verbs(verbs: list[dict]) -> None:
 
 
 def main() -> None:
+    print("Loading verbs from:", DATA_FILE.resolve())
     verbs = load_verbs()
     print_verbs(verbs)
 
